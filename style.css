@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500;600&display=swap');
+
+/* ===================== */
+/* GLOBAL */
+/* ===================== */
+body {
+    margin: 0;
+    background: #f8f5f0; /* cream lembut */
+    font-family: 'Poppins', sans-serif;
+    color: #2c3e50;
+}
+
+/* ===================== */
+/* JUDUL UTAMA */
+/* ===================== */
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px; /* diperkecil */
+    text-align: center;
+    margin: 12px 0;
+    color: #1b3c59;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+/* SUB JUDUL */
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    text-align: center;
+    color: #285772;
+    margin-bottom: 15px;
+}
+
+/* ===================== */
+/* NAVBAR */
+/* ===================== */
+nav{
+    background: #1b3c59;
+    padding: 14px;
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+nav {
+    background-color: #244865;
+    text-align: center;
+    padding: 14px 0;
+}
+
+nav a {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    margin: 0 10px;
+    border-radius: 25px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+/* efek hover elegan */
+nav a:hover {
+    background-color: #e6d5b8;
+    color: #244865;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+/* ===================== */
+/* FORM */
+/* ===================== */
+.formulir {
+    max-width: 500px;
+    margin: 25px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+form label {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 13px;
+    background: #fafafa;
+}
+
+/* Tombol Form Cream Premium */
+form button {
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #f6e7d8, #ead8c0);
+    color: #1b3c59;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+form button:active {
+    transform: translateY(0);
+    box-shadow: inset 2px 2px 6px rgba(0,0,0,0.15);
+}
+
+/* ===================== */
+/* PRODUK */
+/* ===================== */
+.daftar-produk {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.produk {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+    transition: 0.3s ease;
+}
+
+.produk:hover {
+    transform: translateY(-5px);
+}
+
+.produk img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+.produk h2 {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.produk h3 {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.harga {
+    font-size: 15px;
+    font-weight: bold;
+    color: #c59d5f; /* gold cream */
+}
+
+.deskripsi {
+    font-size: 13px;
+    color: #555;
+}
+
+/* ===================== */
+/* ARTIKEL */
+/* ===================== */
+.artikel {
+    max-width: 650px;
+    margin: 25px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.artikel .sampul {
+    width: 140px;
+    float: right;
+    margin: 0 0 15px 15px;
+}
+
+/* ===================== */
+/* FOOTER */
+/* ===================== */
+footer{
+    background: #1b3c59;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 30px;
+}
+/* ========================= */
+/* BEDAH BUKU CLEAN VERSION */
+/* ========================= */
+
+/* Samakan font seluruh artikel */
+.daftar-produk {
+    font-family: 'Poppins', sans-serif;
+    color: #1f3c57;
+    padding: 40px 0;
+}
+
+/* Box artikel */
+.artikel {
+    background: #f3efe7;
+    width: 85%;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 20px;
+    line-height: 1.8;
+}
+
+/* Judul buku */
+.artikel h2 {
+    font-size: 24px;
+    font-weight: 500; /* tidak bold */
+    margin-bottom: 10px;
+}
+
+/* Penulis */
+.artikel .Penulis {
+    font-size: 15px;
+    font-weight: 400; /* normal */
+    margin-bottom: 15px;
+}
+
+/* Paragraf biasa */
+.artikel p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+/* Quotes saja yang beda */
+.artikel blockquote {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 20px 0;
+    padding-left: 20px;
+    border-left: 4px solid #1f3c57;
+}
+
+/* Gambar sampul */
+.sampul {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    border-radius: 10px;
+}
