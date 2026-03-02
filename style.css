@@ -535,5 +535,11 @@ body {
 main {
     flex: 1;
 }
-
-
+header {
+    background:
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("image/backgrond\ 3.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 80px 20px;
+    color: white;
+}
