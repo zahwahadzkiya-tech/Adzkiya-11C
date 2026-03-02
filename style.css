@@ -4,10 +4,6 @@ html, body {
     margin: 0;
 }
 body {
-    display: flex;
-    flex-direction: column;
-}
-body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
 
@@ -539,4 +535,5 @@ body {
 main {
     flex: 1;
 }
+
 
